@@ -1,5 +1,5 @@
 /* From Uiverse.io by ZAKARIAE48CHELLE */ 
-.delete-button {
+.key {
   background-color: #000;
   color: #fff;
   font-size: 17px;
@@ -29,7 +29,7 @@
   transform: perspective(70px) rotateX(5deg) rotateY(0deg);
 }
 
-.delete-button::after {
+.key::after {
   content: "";
   position: absolute;
   top: 0;
@@ -48,7 +48,7 @@
   transition: all 0.1s ease-in-out 0s;
 }
 
-.delete-button::before {
+.key::before {
   content: "";
   position: absolute;
   top: 0;
@@ -69,7 +69,7 @@
   transition: all 0.1s ease-in-out 0s;
 }
 
-.delete-button:active {
+.key:active {
   will-change: transform;
   transform: perspective(80px) rotateX(5deg) rotateY(1deg) translateY(3px)
     scale(0.96);
@@ -81,7 +81,7 @@
   transition: all 0.1s ease-in-out 0s;
 }
 
-.delete-button::after:active {
+.key::after:active {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.5),
@@ -89,7 +89,7 @@
   );
 }
 
-.delete-button:active::before {
+.key:active::before {
   content: "";
   display: block;
   position: absolute;
@@ -112,6 +112,6 @@
   }
 }
 
-.delete-button:focus {
+.key:focus {
   outline: none;
 }
